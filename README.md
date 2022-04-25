@@ -11,7 +11,7 @@ The purpose of this project is use SQL to analyze the data and find answers to t
 <img width="175" alt="Retiring Titles" src="https://user-images.githubusercontent.com/100614930/165017900-6576ad54-dfa6-4652-9bdc-c6acf8996fa0.png">
 
 - In the retirement_titles.csv file, many employees held multiple titles at their time at Pewlett Harkard. If we look at each title a single employee holds, it can be concluded that the company promotes their employees every few years. For example, Kwee Schusler (employee no. 10066) started at the company in 1986  and is promoted from assistant engineer to engineer in 1992 and then another promotion in 6 years in 1998 to senior engineer. Therefore, many of those retiring can have their positions replaced internally and promotions will be available to existing employees that will not be retiring as an incentive. 
-- 
+
 <img width="429" alt="Kwee" src="https://user-images.githubusercontent.com/100614930/165017958-dd5d8f83-ffc0-404c-9abb-ce56399c74d5.png">
 
 - The retirement_titles.csv file also informs the company when employees joined the company. This will tell us how long an employee has worked for the company.
