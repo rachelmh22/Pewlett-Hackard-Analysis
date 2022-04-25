@@ -24,6 +24,14 @@ The purpose of this project is use SQL to analyze the data and find answers to t
 
 Counting all the employees in the unique_titles.csv file, 72,458 employees are in their retirement period and based on the retiring_titiles.csv file, 25,916 are senior engineer positions. It will be crucial for the company to begin preparing to find replacements for these positions or promote current engineers in the company to ensure these positions are not empty as this can impact company operations. 
 
+#### Query
+SELECT COUNT (emp_no)
+FROM unique_titles;
+
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 Counting the number of employees eligible for the mentorship program from the mentorship_eligibilty.csv file, only 1,549 employees will be able to participate. Depending on the mentorship program is set up, each eligible employee will need to mentor 40-50 employees if all positions are filled. However, some positions can be replaced through promotions and those eligible can create teams to assist them in the mentorship programs. Therefore, if organized well, the mentorship program can be successful. 
+
+#### Query
+SELECT COUNT (emp_no)
+FROM mentorship_eligibilty;
