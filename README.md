@@ -26,6 +26,7 @@ Counting all the employees in the unique_titles.csv file, 72,458 employees are i
 
 #### Query
 SELECT COUNT (emp_no)
+
 FROM unique_titles;
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
@@ -34,4 +35,5 @@ Counting the number of employees eligible for the mentorship program from the me
 
 #### Query
 SELECT COUNT (emp_no)
+
 FROM mentorship_eligibilty;
